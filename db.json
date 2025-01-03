@@ -1,14 +1,427 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "posts": [{
+    id: '1',
+    title: 'Must-Visit Monsoon Destination in India',
+    content: `Places to Visit in India During Monsoon
+
+    Monsoon in India transforms the landscape into a lush green paradise, rejuvenating the soul and offering unforgettable travel experiences. From misty hill stations to serene beaches and historical landmarks, the rains create a magical ambiance. Here are the top places to explore in India during the monsoon season:
+
+    1. Munnar, Kerala
+
+    Known for its sprawling tea gardens, mist-covered hills, and cascading waterfalls, Munnar is a monsoon delight. Attractions include:
+
+    Eravikulam National Park
+
+    Attukal Waterfalls
+
+    Mattupetty Dam
+
+    2. Coorg, Karnataka
+
+    Dubbed the "Scotland of India," Coorg's verdant valleys and coffee plantations come alive during the rains. Don’t miss:
+
+    Abbey Falls
+
+    Raja’s Seat
+
+    Nagarhole National Park
+
+    3. Lonavala & Khandala, Maharashtra
+
+    These twin hill stations are renowned for their scenic beauty, lush greenery, and stunning waterfalls. Highlights include:
+
+    Tiger’s Leap
+
+    Bhushi Dam
+
+    Karla Caves
+
+    4. Shillong, Meghalaya
+
+    Known as the "Scotland of the East," Shillong’s misty mountains and serene lakes are a monsoon wonderland. Must-visit spots:
+
+    Elephant Falls
+
+    Umiam Lake
+
+    Mawjymbuin Cave
+
+    5. Valley of Flowers, Uttarakhand
+
+    A UNESCO World Heritage Site, this valley blooms with vibrant flowers during the monsoon. Attractions include:
+
+    Hemkund Sahib
+
+    Nanda Devi National Park
+
+    6. Udaipur, Rajasthan
+
+    The "City of Lakes" becomes even more enchanting with the rains. Places to explore:
+
+    Lake Pichola
+
+    Sajjangarh Palace
+
+    Fateh Sagar Lake
+
+    7. Pondicherry
+
+    The French Quarter of India offers a tranquil monsoon retreat with its charming streets and serene beaches. Key attractions:
+
+    Paradise Beach
+
+    Auroville
+
+    Promenade Beach
+
+    8. Mount Abu, Rajasthan
+
+    The only hill station in Rajasthan, Mount Abu offers respite from the desert heat during monsoons. Highlights include:
+
+    Nakki Lake
+
+    Dilwara Temples
+
+    Guru Shikhar
+
+    9. Cherrapunji & Mawsynram, Meghalaya
+
+    Known as the wettest places on Earth, these regions are ideal for experiencing the monsoon in full glory. Top attractions:
+
+    Nohkalikai Falls
+
+    Living Root Bridges
+
+    Seven Sisters Falls
+
+    10. Alleppey, Kerala
+
+    Experience the charm of Kerala’s backwaters in Alleppey. The monsoon adds a magical touch to houseboat cruises. Don’t miss:
+
+    Vembanad Lake
+
+    Alappuzha Beach
+
+    Kumarakom Bird Sanctuary
+
+    11. Goa
+
+    While famous for its beaches, Goa’s monsoon beauty is showcased in its lush hinterlands. Must-visit places include:
+
+    Dudhsagar Falls
+
+    Spice Plantations
+
+    Chapora Fort
+
+    12. Mahabaleshwar, Maharashtra
+
+    A popular hill station, Mahabaleshwar is known for its lush green landscapes and strawberry farms. Attractions include:
+
+    Pratapgad Fort
+
+    Venna Lake
+
+    Lingmala Waterfalls
+
+    13. Andaman & Nicobar Islands
+
+    The islands’ pristine beaches and rainforests become even more alluring during the monsoon. Explore:
+
+    Radhanagar Beach
+
+    Cellular Jail
+
+    Baratang Island
+
+    14. Wayanad, Kerala
+
+    Nestled in the Western Ghats, Wayanad’s misty mountains and spice plantations are a monsoon treat. Key spots:
+
+    Edakkal Caves
+
+    Banasura Sagar Dam
+
+    Meenmutty Waterfalls
+
+    15. Darjeeling, West Bengal
+
+    The "Queen of the Hills" offers breathtaking views of tea gardens and misty mountains. Don’t miss:
+
+    Tiger Hill
+
+    Batasia Loop
+
+    Darjeeling Himalayan Railway
+
+    16. Spiti Valley, Himachal Pradesh
+
+    For adventure seekers, Spiti’s rugged landscapes and monasteries provide a unique monsoon experience. Highlights include:
+
+    Key Monastery
+
+    Chandratal Lake
+
+    Pin Valley National Park
+
+    17. Mysore, Karnataka
+
+    Known for its royal heritage, Mysore’s historical landmarks shine during the monsoon. Attractions include:
+
+    Mysore Palace
+
+    Brindavan Gardens
+
+    Chamundi Hills
+
+    18. Tawang, Arunachal Pradesh
+
+    Tawang’s serene monasteries and lush valleys offer a peaceful monsoon escape. Must-see spots:
+
+    Tawang Monastery
+
+    Sela Pass
+
+    Nuranang Falls
+
+    19. Pachmarhi, Madhya Pradesh
+
+    This hill station, known as the "Queen of Satpura," is perfect for a monsoon getaway. Explore:
+
+    Bee Falls
+
+    Jata Shankar Caves
+
+    Dhoopgarh
+
+    20. Kodaikanal, Tamil Nadu
+
+    The "Princess of Hill Stations" is mesmerizing during the rains. Key attractions include:
+
+    Kodaikanal Lake
+
+    Coaker’s Walk
+
+    Pillar Rocks
+
+    India’s diverse landscapes ensure there’s a perfect monsoon destination for everyone. Whether you’re seeking adventure, tranquility, or cultural experiences, the rains bring a unique charm to each location. Pack your bags, embrace the monsoon, and create memories that last a lifetime.
+    `,
+    authorId: mainAuthor.id,
+    createdAt: '2024-06-15T10:00:00Z',
+    updatedAt: '2024-07-15T10:00:00Z',
+    author: mainAuthor,
+    season: 'Monsoon',
+    location: 'India',
+    imageUrl: 'https://karleytravel.netlify.app/assets/monsson-B_8wxT74.png'
+  }, {
+    id: '2',
+    title: 'Must Visit Summer Destinations in India',
+    content: `Top Places to Visit in India During Summer
+
+    India is blessed with a diverse landscape, offering travelers an array of destinations to beat the heat during summer. From misty hill stations to serene beaches and cool mountain getaways, here's a list of must-visit places in India during summer:
+
+    1. Manali, Himachal Pradesh
+
+    Nestled in the Himalayas, Manali is a favorite destination for its pleasant weather, snow-capped peaks, and adventure activities.
+
+    Keywords: Manali, Himachal Pradesh, Solang Valley, Rohtang Pass, Beas River, adventure sports, summer getaway.
+
+    2. Shimla, Himachal Pradesh
+
+    The capital of Himachal Pradesh, Shimla is known for its colonial charm, Mall Road, and scenic vistas.
+
+    Keywords: Shimla, Himachal Pradesh, Mall Road, Jakhoo Temple, Ridge, Kufri, toy train, British architecture.
+
+    3. Nainital, Uttarakhand
+
+    Nainital, with its emerald green lake surrounded by hills, is an idyllic summer retreat.
+
+    Keywords: Nainital, Uttarakhand, Naini Lake, boating, snow view point, Mall Road, Tiffin Top, hill station.
+
+    4. Darjeeling, West Bengal
+
+    Famous for its tea gardens and breathtaking views of the Kanchenjunga, Darjeeling is a summer paradise.
+
+    Keywords: Darjeeling, West Bengal, tea estates, Kanchenjunga, Tiger Hill, toy train, Peace Pagoda, monasteries.
+
+    5. Ooty, Tamil Nadu
+
+    Known as the "Queen of Hill Stations," Ooty offers cool weather, lush greenery, and colonial charm.
+
+    Keywords: Ooty, Tamil Nadu, Nilgiri Hills, Botanical Garden, Ooty Lake, toy train, summer vacation, hill station.
+
+    6. Coorg, Karnataka
+
+    Dubbed as the "Scotland of India," Coorg is perfect for coffee lovers and nature enthusiasts.
+
+    Keywords: Coorg, Karnataka, coffee plantations, Abbey Falls, Raja’s Seat, Dubare Elephant Camp, lush greenery.
+
+    7. Leh-Ladakh, Jammu & Kashmir
+
+    For the adventurous soul, Leh-Ladakh offers stunning landscapes, monasteries, and thrilling biking routes.
+
+    Keywords: Leh, Ladakh, Pangong Lake, Nubra Valley, monasteries, trekking, summer adventure, Himalayas.
+
+    8. Rishikesh, Uttarakhand
+
+    Known as the "Yoga Capital of the World," Rishikesh is ideal for spiritual seekers and adventure enthusiasts.
+
+    Keywords: Rishikesh, Uttarakhand, yoga, Ganges River, rafting, ashrams, Lakshman Jhula, spiritual retreat.
+
+    9. Munnar, Kerala
+
+    This lush green paradise is famous for its tea gardens, waterfalls, and rolling hills.
+
+    Keywords: Munnar, Kerala, tea plantations, Eravikulam National Park, Mattupetty Dam, waterfalls, summer getaway.
+
+    10. Srinagar, Jammu & Kashmir
+
+    Known for its iconic Dal Lake and Mughal gardens, Srinagar is a serene escape in summer.
+
+    Keywords: Srinagar, Jammu & Kashmir, Dal Lake, houseboats, Mughal gardens, Shankaracharya Temple, Kashmiri cuisine.
+
+    11. Mount Abu, Rajasthan
+
+    Rajasthan’s only hill station, Mount Abu offers a cool respite with its lush greenery and serene lakes.
+
+    Keywords: Mount Abu, Rajasthan, Nakki Lake, Dilwara Temples, Guru Shikhar, summer vacation.
+
+    12. Mahabaleshwar, Maharashtra
+
+    Famous for its strawberries and misty weather, Mahabaleshwar is an ideal summer retreat in the Western Ghats.
+
+    Keywords: Mahabaleshwar, Maharashtra, strawberries, Pratapgad Fort, Venna Lake, summer travel.
+
+    13. Shillong, Meghalaya
+
+    Known as the "Scotland of the East," Shillong offers a mix of scenic beauty and vibrant culture.
+
+    Keywords: Shillong, Meghalaya, waterfalls, Umiam Lake, Khasi Hills, Mawlynnong, summer vacation.
+
+    14. Auli, Uttarakhand
+
+    Auli is a hidden gem for skiing and stunning Himalayan views, making it a unique summer destination.
+
+    Keywords: Auli, Uttarakhand, skiing, Himalayan peaks, summer retreat, cable car.
+
+    15. Kodaikanal, Tamil Nadu
+
+    Called the "Princess of Hill Stations," Kodaikanal is known for its lakes, waterfalls, and misty hills.
+
+    Keywords: Kodaikanal, Tamil Nadu, Kodai Lake, Coaker’s Walk, Bryant Park, summer travel.
+
+    16. Andaman and Nicobar Islands
+
+    With pristine beaches and turquoise waters, this archipelago is perfect for a tropical summer getaway.
+
+    Keywords: Andaman Islands, Nicobar Islands, Radhanagar Beach, scuba diving, summer vacation, tropical paradise.
+
+    17. Pachmarhi, Madhya Pradesh
+
+    This hill station in central India is known for its caves, waterfalls, and lush greenery.
+
+    Keywords: Pachmarhi, Madhya Pradesh, waterfalls, Satpura Hills, caves, summer escape.
+
+    18. Mussoorie, Uttarakhand
+
+    Mussoorie, the "Queen of the Hills," is a classic summer escape with its scenic beauty and charming attractions.
+
+    Keywords: Mussoorie, Uttarakhand, Kempty Falls, Mall Road, Gun Hill, Camel’s Back Road, summer travel.
+
+    19. Coonoor, Tamil Nadu
+
+    Close to Ooty, Coonoor is a quieter hill station offering tea gardens and beautiful vistas.
+
+    Keywords: Coonoor, Tamil Nadu, tea estates, Sim’s Park, Nilgiri Hills, tranquil retreat.
+
+    20. Ranikhet, Uttarakhand
+
+    Known for its lush greenery and panoramic views of the Himalayas, Ranikhet is a serene summer retreat.
+
+    Keywords: Ranikhet, Uttarakhand, orchards, golf course, Chaubatia Gardens, tranquil escape.
+
+    This extensive list includes both popular and lesser-known destinations to cater to all types of travelers. Enjoy your summer exploring the best of India!`,
+    authorId: mainAuthor.id,
+    createdAt: '2024-08-15T10:00:00Z',
+    updatedAt: '2024-08-25T10:00:00Z',
+    author: mainAuthor,
+    season: 'Summer',
+    location: 'India',
+    imageUrl: 'https://karleytravel.netlify.app/assets/summer-CbDjU-uS.png'
+  }, {
+    id: '3',
+    title: 'Must-Visit Winter Destinations in India',
+    content: `Top Destinations in India to Visit During Winter
+
+    India offers a plethora of destinations to explore during the winter season, ranging from snow-clad mountains to serene beaches. Here’s a curated list of places you must visit this winter:
+
+    1. Shimla, Himachal Pradesh
+
+    Shimla, the Queen of Hills, transforms into a winter wonderland during December and January. The snow-capped mountains, pine forests, and colonial architecture make it an ideal destination for snow lovers.
+
+    2. Manali, Himachal Pradesh
+
+    A favorite for honeymooners and adventure enthusiasts, Manali offers activities like skiing and snowboarding. Rohtang Pass and Solang Valley are must-visit spots.
+
+    3. Auli, Uttarakhand
+
+    Known for its ski resorts and panoramic views of the Himalayas, Auli is a paradise for winter sports lovers.
+
+    4. Leh-Ladakh, Jammu & Kashmir
+
+    Famous for its rugged landscapes and the Chadar Trek over the frozen Zanskar River, Ladakh offers a unique winter experience.
+
+    5. Gulmarg, Jammu & Kashmir
+
+    A haven for skiing and cable car rides, Gulmarg is one of India’s premier winter destinations.
+
+    6. Goa
+
+    For a warmer winter escape, Goa’s beaches, nightlife, and vibrant culture make it a perfect retreat.
+
+    7. Rann of Kutch, Gujarat
+
+    The Rann Utsav, a cultural festival held during winter, showcases the beauty of the salt desert under the moonlight.\
+
+    8. Udaipur, Rajasthan
+
+    Known as the City of Lakes, Udaipur offers a royal experience with its palaces, gardens, and scenic beauty.
+
+    9. Darjeeling, West Bengal
+
+    Famous for its tea plantations and the iconic Toy Train, Darjeeling is a picturesque hill station perfect for a cozy winter getaway.
+
+    10. Andaman and Nicobar Islands
+
+    The pristine beaches and water activities in Andaman provide a tropical winter escape.
+
+    11. Kerala Backwaters
+
+    The serene backwaters and houseboat experiences in Alleppey and Kumarakom are perfect for a tranquil winter vacation.
+
+    12. Ooty, Tamil Nadu
+
+    Known for its botanical gardens, lakes, and the Nilgiri Mountain Railway, Ooty is a charming hill station to visit in winter.
+
+    13. Munnar, Kerala
+
+    Munnar’s tea plantations and misty hills are a visual delight during the winter season.
+
+    14. Jaisalmer, Rajasthan
+
+    Experience the golden sand dunes and camel safaris in the Thar Desert during winter.
+
+    15. Shillong, Meghalaya
+
+    Known as the Scotland of the East, Shillong offers breathtaking waterfalls, caves, and vibrant local culture.
+
+    These destinations showcase the diverse beauty of India, catering to every traveler’s preference, whether it’s snow, culture, or beaches. Make this winter unforgettable by exploring one of these incredible places.`,
+    authorId: mainAuthor.id,
+    createdAt: '2024-12-15T10:00:00Z',
+    updatedAt: '2024-12-19T10:00:00Z',
+    author: mainAuthor,
+    season: 'Winter',
+    location: 'India',
+    imageUrl: 'https://karleytravel.netlify.app/assets/winter-CPov5a-U.png'
+  }]
 }
